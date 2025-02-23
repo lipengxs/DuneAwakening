@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Media Gallery - Dune: Awakening</title>
+        <meta name="description" content="Explore the stunning visuals of Dune: Awakening through our collection of trailers, screenshots, and artwork. Witness the beauty of Arrakis.">
+        <meta name="keywords" content="dune awakening media, dune game trailers, dune screenshots, arrakis artwork">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://dune-awakening.com/media">
+        <meta property="og:title" content="Media Gallery - Dune: Awakening">
+        <meta property="og:description" content="Explore the stunning visuals of Dune: Awakening through our collection of trailers, screenshots, and artwork.">
+        <meta property="og:image" content="https://dune-awakening.com/static/logo.png">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Media Gallery - Dune: Awakening">
+        <meta name="twitter:description" content="Explore the stunning visuals of Dune: Awakening through our collection of trailers, screenshots, and artwork.">
+        <meta name="twitter:image" content="https://dune-awakening.com/static/logo.png">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+        <link rel="apple-touch-icon" href="static/logo.png">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="static/base.css?v=0.1.1">
+        <style>
+            .media-header {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('static/media-bg.jpg');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                padding: 150px 0 80px;
+                text-align: center;
+                margin-bottom: 4rem;
+            }
+
+            .media-header h1 {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+            }
+
+            .media-nav {
+                background: var(--secondary-color);
+                padding: 1rem 0;
+                position: sticky;
+                top: 80px;
+                z-index: 100;
+            }
+
+            .media-nav ul {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .media-nav a {
+                color: var(--primary-color);
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 1rem;
+                border-radius: 4px;
+                transition: all 0.3s ease;
+            }
+
+            .media-nav a:hover,
+            .media-nav a.active {
+                background: var(--accent-color);
+                color: var(--secondary-color);
+            }
+
+            .trailers-section {
+                padding: 4rem 0;
+                background: white;
+            }
+
+            .trailer-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            .trailer-card {
+                background: var(--bg-color);
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .trailer-thumbnail {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+            }
+
+            .trailer-thumbnail img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .play-button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 60px;
+                height: 60px;
+                background: rgba(0, 0, 0, 0.7);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .play-button:hover {
+                background: var(--accent-color);
+            }
+
+            .play-button::after {
+                content: '';
+                border-left: 20px solid white;
+                border-top: 12px solid transparent;
+                border-bottom: 12px solid transparent;
+                margin-left: 5px;
+            }
+
+            .trailer-info {
+                padding: 1.5rem;
+            }
+
+            .trailer-info h3 {
+                margin: 0 0 0.5rem;
+                color: var(--secondary-color);
+            }
+
+            .trailer-info p {
+                color: #666;
+                margin: 0;
+                font-size: 0.9rem;
+            }
+
+            .screenshots-section {
+                padding: 4rem 0;
+                background: var(--bg-color);
+            }
+
+            .screenshot-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 2rem;
+                margin-top: 2rem;
+                padding: 0 1rem;
+            }
+
+            .screenshot-grid img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 12px;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+            }
+
+            .screenshot-grid img:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+            }
+
+            .artwork-section {
+                padding: 4rem 0;
+                background: white;
+            }
+
+            .artwork-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            .artwork-item {
+                position: relative;
+                padding-bottom: 100%;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .artwork-item img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .artwork-item:hover img {
+                transform: scale(1.05);
+            }
+
+            .modal {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.9);
+                z-index: 1000;
+                padding: 2rem;
+                cursor: pointer;
+            }
+
+            .modal img {
+                max-width: 90%;
+                max-height: 90vh;
+                margin: auto;
+                display: block;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            @media (max-width: 768px) {
+                .media-nav {
+                    overflow-x: auto;
+                    white-space: nowrap;
+                    -webkit-overflow-scrolling: touch;
+                }
+
+                .media-nav ul {
+                    padding: 0 1rem;
+                }
+
+                .screenshot-grid {
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 1.5rem;
+                }
+
+                .screenshot-grid img {
+                    height: 200px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <img src="static/logo.png" alt="Dune: Awakening Logo">
+                    </div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/media">Media</a></li>
+                        <li><a href="/product">Product</a></li>
+                        <li><a href="https://store.steampowered.com/app/1172710/Dune_Awakening/" target="_blank" class="play-now-btn">Play Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="media-header">
+                <div class="container">
+                    <h1>Media Gallery</h1>
+                    <p>Explore the stunning world of Dune: Awakening</p>
+                </div>
+            </section>
+
+            <section id="trailers" class="trailers-section">
+                <div class="container">
+                    <h2>Game Trailers</h2>
+                    <div class="trailer-grid">
+                        <div class="trailer-card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gl6Wi20fSp0?si=8WZ8u3uAtUpeNIGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="trailer-card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mPWupYx11lM?si=jVqQbdo4TXjp-GEq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="trailer-card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/61QOKos_wig?si=Ky4EeIV1iN9WYckC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="screenshots" class="screenshots-section">
+                <div class="container">
+                    <h2>Screenshots</h2>
+                    <div class="screenshot-grid">
+                        <img src="static/images/screenshot1.jpg" alt="A vast desert landscape of Arrakis with towering sand dunes and a distant sandworm">
+                        <img src="static/images/screenshot2.jpg" alt="A massive sandworm emerging from the desert during a spice harvesting operation">
+                        <img src="static/images/screenshot3.jpg" alt="Player constructing a desert fortress with shield walls and water storage facilities">
+                        <img src="static/images/screenshot4.jpg" alt="Epic combat scene between players using Fremen-style weapons and tactics">
+                        <img src="static/images/screenshot5.jpg" alt="Advanced base with spice refineries and defensive structures in the desert">
+                        <img src="static/images/screenshot6.jpg" alt="Player character in stillsuit engaging in melee combat with raiders">
+                        <img src="static/images/screenshot7.jpg" alt="Ornithopter flying over a desert storm with lightning and swirling sand">
+                        <img src="static/images/screenshot8.jpg" alt="Night scene showing bioluminescent desert creatures and spice blooms">
+                    </div>
+                </div>
+            </section>
+
+            
+        </main>
+
+        <div id="imageModal" class="modal">
+            <img id="modalImage" src="" alt="">
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="static/logo.png" alt="Dune: Awakening Logo">
+                    </div>
+                    <div class="footer-links">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/news">News</a></li>
+                            <li><a href="/media">Media</a></li>
+                            <li><a href="/character">Character</a></li>
+                            <li><a href="/product">Product</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="https://discord.gg/duneawakening" target="_blank">Discord</a></li>
+                            <li><a href="https://twitter.com/duneawakening" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.youtube.com/duneawakening" target="_blank">YouTube</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/terms-of-service">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 Dune: Awakening. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Media navigation
+            const navLinks = document.querySelectorAll('.media-nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    link.classList.add('active');
+                });
+            });
+
+            // Image modal
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const screenshots = document.querySelectorAll('.screenshot-item img');
+            const artworks = document.querySelectorAll('.artwork-item img');
+
+            [...screenshots, ...artworks].forEach(img => {
+                img.addEventListener('click', () => {
+                    modal.style.display = 'block';
+                    modalImg.src = img.src;
+                });
+            });
+
+            modal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    </body>
+</html> 

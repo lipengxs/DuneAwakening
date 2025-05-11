@@ -5,8 +5,8 @@ Allow: /news/
 Allow: /media/
 Allow: /product/
 Allow: /character/
-Allow: /news/beta-weekend
-Allow: /news/steel
+Allow: /news/beta-weekend/
+Allow: /news/steel/
 Allow: /privacy-policy
 Allow: /terms-of-service
 

@@ -105,4 +105,25 @@
 
 > *"将你的想象力转化为音乐，人人都是音乐家！"*
 
-![sprunki.tv](https://novelsnotes.com/wp-content/uploads/2025/03/sprunki-game-1024x652.png) 
+![sprunki.tv](https://novelsnotes.com/wp-content/uploads/2025/03/sprunki-game-1024x652.png)
+
+## 机甲突破 Mecha Break
+
+发布日期：2025年6月
+
+[官方网站](https://mechabreak.org/)
+
+体验终极机甲战斗体验。在这款革命性的团队竞技游戏中，定制你的机甲，组建你的小队，主宰战场。在未来的机械化战争中，通过战略性的团队配合和激烈的机甲动作，展现你的实力。
+
+### 核心特色：
+
+- 深度机甲定制系统
+- 多样化的团队竞技玩法
+- 动态天气系统影响战斗
+- 可破坏的环境系统
+- 定期更新新地图和机甲
+- 跨平台游戏支持
+
+> *"从未来城市到轨道空间站，在多样化的战场上展现你的机甲实力！"*
+
+![Mecha Break](https://mechabreak.org/images/gameplay.jpg) 

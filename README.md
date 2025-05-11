@@ -35,7 +35,7 @@ The website includes the following main sections:
 
 ## Contact
 
-- Website: [duneawakening.com](https://dune-awakening.com)
+- Website: [dune-awakening.com](https://dune-awakening.com)
 - Discord: [discord.gg/duneawakening](https://discord.gg/duneawakening)
 - Twitter: [@duneawakening](https://twitter.com/duneawakening)
 - YouTube: [youtube.com/duneawakening](https://youtube.com/duneawakening)

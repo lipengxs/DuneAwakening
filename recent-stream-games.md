@@ -65,27 +65,6 @@
 > 
 > ![The Quinfall](https://novelsnotes.com/wp-content/uploads/2025/03/news2.png)
 
-## 怪物猎人：荒野 Monster Hunter Wilds
-
-发布日期：2025年2月28日
-
-[详细介绍](https://monsterhunterwilds.org/)
-
-传奇狩猎系列带来迄今为止最具野心的作品。体验怪物猎人系列革命性的新篇章，带来扩展的机制、全新的怪物，以及前所未有的狩猎策略自由度。
-
-### 核心特色：
-
-- 全新广阔的狩猎场地
-- 新怪物种类和经典怪物回归
-- 强化的移动和战斗机制
-- 扩展的多人游戏功能
-- 先进的环境互动系统
-- 次世代画质与性能表现
-
-> *"在最宏大的怪物猎人世界中，体验前所未有的狩猎体验"*
-> 
-> ![Monster Hunter Wilds](https://novelsnotes.com/wp-content/uploads/2025/03/bg_story-1024x767.jpg)
-
 ## 音乐创想家 Sprunki Incredibox
 
 现已推出！
@@ -107,6 +86,44 @@
 
 ![sprunki.tv](https://novelsnotes.com/wp-content/uploads/2025/03/sprunki-game-1024x652.png)
 
+## 昭和美国物语 Showa American Story
+
+发布日期：待定
+
+[官方网站](https://showa-american-story.com/)
+
+探索这款开创性的后末日动作RPG游戏，在日美经济地位逆转的世界中，体验日本和美国文化的独特融合。跟随19岁的特技演员Chouko，她死而复生并获得超自然力量，在50号公路上寻求复仇。
+
+### 核心特色：
+
+- 流畅而残酷的近战和远程武器战斗
+- 通过主线与支线任务进行探索
+- 80年代怀旧风格，融合美日流行文化
+- B级片风格，带有黑色幽默
+- 独特文化融合背景下的丰富剧情
+- 支持PlayStation 4、PlayStation 5和PC (Steam)
+
+> *"体验昭和美国的崛起，在一个文化碰撞的世界中"*
+
+## 命运触发器 FATE TRIGGER
+
+发布日期：2026年第一季度（2026年3月）
+
+[官方网站](https://fate-trigger.com/)
+
+体验机甲战斗的未来！命运触发器将战略深度与快节奏动作相结合，带来史诗级多人战斗。故事设定在2157年，人类已殖民多个恒星系，先进的机甲技术决定着文明的命运。
+
+### 核心特色：
+
+- 数十种独特的Striker机甲，各具特色能力
+- 深度定制系统 - 武器、装甲、装备
+- 多样化战场 - 城市、工业区、外星世界
+- 首发即支持跨平台游戏
+- 多种游戏模式 - 团队死斗、夺旗、山丘之王
+- 渐进式解锁系统
+
+> *"掌握你的Striker。主宰战场。赢得胜利。"*
+
 ## 机甲突破 Mecha Break
 
 发布日期：2025年6月
@@ -126,4 +143,48 @@
 
 > *"从未来城市到轨道空间站，在多样化的战场上展现你的机甲实力！"*
 
-![Mecha Break](https://mechabreak.org/images/gameplay.jpg) 
+![Mecha Break](https://mechabreak.org/images/media/screenshot-team.jpg)
+
+## 编年史：中世纪 Chronicles: Medieval
+
+发布日期：2026年第一季度
+
+[官方网站](https://chronicles-medieval.com/)
+
+体验终极中世纪策略游戏体验。在这款开创性的策略游戏中，从零开始建设你的王国，率领史诗军队投入战斗，征服多样化的战场。与来自不同平台的玩家一起，在跨平台多人游戏中展现你的战略才能。
+
+### 核心特色：
+
+- 从零开始建设你的王国
+- 率领史诗军队投入战斗
+- 征服多样化的战场
+- 跨平台多人游戏支持
+- 支持PC、PlayStation和Xbox平台
+- 深度策略玩法系统
+
+> *"打造你的王国，征服战场，成为中世纪世界的统治者！"*
+
+> ![Chronicles: Medieval](https://novelsnotes.com/wp-content/uploads/2025/12/6847f50e55edb72a98fcc5dc_Chronicles_YoungRecruit_Wallpaper-Horizontal-1920x1200-Game-L.jpg)
+
+## 深红沙漠 Crimson Desert
+
+发布日期：2026年3月19日
+
+[官方网站](https://crimson-desert.com/)
+
+加入史诗般的冒险之旅，体验这款开创性的开放世界动作冒险游戏。作为灰鬃佣兵团的领袖Kliff，在广阔的Pywel大陆上展开沉浸式单人冒险。跟随Kliff和灰鬃佣兵团，在他们遭受黑熊佣兵团毁灭性伏击后重新集结的故事。
+
+### 核心特色：
+
+- 史诗级剧情，跟随Kliff和灰鬃佣兵团的冒险
+- 激烈的战斗系统，掌握动态近战连击和战略玩法
+- 广阔探索，从茂密森林到干旱沙漠的多样化景观
+- 丰富的世界设定，充满政治阴谋、神秘派系和难忘角色
+- 无缝开放世界探索
+- 深度战斗系统，多种武器和战斗风格
+- 生活技能系统，包括钓鱼、烹饪、制作和狩猎
+- 支持PC (Steam)、PlayStation 5、Xbox Series X/S
+
+> *"在Pywel大陆上展开史诗冒险，体验革命性的开放世界动作冒险！"*
+
+> ![Crimson Desert](https://novelsnotes.com/wp-content/uploads/2025/12/88c929ff6ec20251028061835178.923x522.jpg)

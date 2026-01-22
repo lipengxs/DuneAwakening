@@ -43,11 +43,15 @@ The wait is finally over! Dune: Awakening, the highly anticipated survival MMO, 
 
 ## 🎮 Get Started Now | 立即开始
 
+**Note:** This is a fan-created website. For official information, please visit [Funcom's official Dune: Awakening website](https://www.funcom.com/games/dune-awakening/).
+
 Visit [dune-awakening.com](https://dune-awakening.com) to:
 - Download the Character Creator
 - Try the Benchmark Mode
 - Join our thriving community
 - Stay updated with the latest news
+
+**注意：** 这是一个粉丝创建的网站。获取官方信息，请访问 [Funcom 的官方 Dune: Awakening 网站](https://www.funcom.com/games/dune-awakening/)。
 
 访问 [dune-awakening.com](https://dune-awakening.com):
 - 下载角色创建器

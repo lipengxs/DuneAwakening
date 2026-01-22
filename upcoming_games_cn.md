@@ -2,7 +2,9 @@
 
 ## 沙丘：觉醒（Dune: Awakening）
 **发布日期：2025年5月20日**  
-[官方网站](https://dune-awakening.com/)
+[粉丝网站](https://dune-awakening.com/) | [官方网站](https://www.funcom.com/games/dune-awakening/)
+
+*注意：dune-awakening.com 是粉丝创建的网站，与 Funcom 或官方游戏无关。*
 
 在这款开创性的开放世界生存MMO游戏中展开史诗般的冒险，游戏背景设定在传奇的《沙丘》宇宙中。与数千名玩家一起，在无缝衔接、不断进化的阿拉基斯星球上求生存。
 

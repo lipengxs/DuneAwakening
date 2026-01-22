@@ -2,7 +2,9 @@
 
 ## Dune: Awakening
 **Release Date: May 20, 2025**  
-[Official Website](https://dune-awakening.com/)
+[Fan Website](https://dune-awakening.com/) | [Official Website](https://www.funcom.com/games/dune-awakening/)
+
+*Note: dune-awakening.com is a fan-created website, not affiliated with Funcom or the official game.*
 
 Embark on an epic journey in this groundbreaking open-world survival MMO set in the legendary Dune universe. Survive the harsh deserts of Arrakis alongside thousands of players in a seamless, ever-evolving world.
 

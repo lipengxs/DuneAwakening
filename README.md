@@ -1,6 +1,8 @@
-# Dune: Awakening
+# Dune: Awakening - Fan Website
 
-Welcome to the official website repository for Dune: Awakening, an epic survival MMO set in the harsh world of Arrakis.
+Welcome to the fan-created website repository for Dune: Awakening, an epic survival MMO set in the harsh world of Arrakis.
+
+**Important Disclaimer:** This is a fan-created website and is not affiliated with, endorsed by, or connected to Funcom or the official Dune: Awakening game. All game-related content is the property of their respective owners. For official information, please visit [Funcom's official website](https://www.funcom.com/games/dune-awakening/).
 
 ## Overview
 
@@ -40,6 +42,10 @@ The website includes the following main sections:
 - Twitter: [@duneawakening](https://twitter.com/duneawakening)
 - YouTube: [youtube.com/duneawakening](https://youtube.com/duneawakening)
 
+## Disclaimer
+
+This is a fan-created website and is not affiliated with, endorsed by, or connected to Funcom or the official Dune: Awakening game. All game-related content, trademarks, and intellectual property are the property of Funcom and their respective owners.
+
 ## License
 
-© 2025 Dune: Awakening. All rights reserved.
+© 2025 Dune: Awakening. All rights reserved. This website's original content is provided for informational purposes only.

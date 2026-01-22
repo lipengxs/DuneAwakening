@@ -40,9 +40,11 @@
 
 ## 社区与资源
 
+**重要提示：** 这是一个粉丝创建的网站，与 Funcom 或官方《沙丘：觉醒》游戏无关。所有游戏相关内容均为其各自所有者的财产。获取官方信息，请访问 [Funcom 的官方网站](https://www.funcom.com/games/dune-awakening/)。
+
 加入《沙丘：觉醒》不断壮大的社区！获取最新消息、参与讨论、结交志同道合的玩家：
 
-- 官方网站：[dune-awakening.com](https://dune-awakening.com)
+- 粉丝网站：[dune-awakening.com](https://dune-awakening.com)
 - Discord：[discord.gg/duneawakening](https://discord.gg/duneawakening)
 - Twitter：[@duneawakening](https://twitter.com/duneawakening)
 - YouTube：[youtube.com/duneawakening](https://youtube.com/duneawakening)
@@ -63,4 +65,6 @@
 
 *本文由LXR工作站编辑团队撰写，转载请注明出处。*
 
-© 2025 Dune: Awakening. 保留所有权利。 
+© 2025 Dune: Awakening. 保留所有权利。
+
+**免责声明：** 这是一个粉丝创建的网站，与 Funcom 或官方《沙丘：觉醒》游戏无关、未获认可或关联。所有游戏相关内容、商标和知识产权均为 Funcom 及其各自所有者的财产。 

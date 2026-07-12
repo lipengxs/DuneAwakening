@@ -26,6 +26,24 @@
         <lastmod>2025-02-23</lastmod>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://dune-awakening.com/beginner-survival-guide</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dune-awakening.com/base-planning-guide</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dune-awakening.com/system-requirements-guide</loc>
+        <lastmod>2026-07-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
     <!-- Legal Pages -->
     <url>
         <loc>https://dune-awakening.com/privacy-policy</loc>
@@ -37,14 +55,9 @@
         <lastmod>2025-02-23</lastmod>
         <priority>0.5</priority>
     </url>
-    <url>
-        <loc>https://dune-awakening.com/news/beta-weekend</loc>
-        <lastmod>2025-05-11</lastmod>
-        <priority>0.5</priority>
-    </url>
         <url>
         <loc>https://dune-awakening.com/news/steel</loc>
         <lastmod>2025-05-11</lastmod>
         <priority>0.5</priority>
     </url>
-</urlset> 
+</urlset>
